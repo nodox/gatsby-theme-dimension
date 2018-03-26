@@ -11,6 +11,7 @@ export class Header extends React.Component{
   render() {
     var headerClass = classNames({
       'dimensions-hide': !this.props.class,
+      'header-center': true,
     });
 
     var headerId = classNames({
